@@ -1,0 +1,47 @@
+// FONTS
+$heading-font: "Poppins", sans-serif;
+$heading-font-weight: medium;
+$body-font: "Poppins", serif;
+$body-font-size: 16px;
+$body-line-height: 1.4;
+
+// COLOR
+$blue-ligher: #d0ecf8;
+$blue: #9bd1ed;
+$navy: #44749e;
+$navy-darker: #3a6a98;
+$black: #333;
+$red: #e46062;
+
+// HEADER
+$site-header-bg: #fff;
+$site-header-text: $blue;
+$site-header-shadow: 0 0 1px rgba(0, 0, 0, 0.2); /* $site-header-shadow: none; */
+
+// MOBILE NAV
+$site-nav-m-bg: #f00;
+$site-nav-m-text: #fff;
+
+// BODY
+$main-header-bg: $blue-ligher; 
+$main-header-text: $black;
+$main-header-mobile-mb: 15px; /* mb = margin-bottom */
+$main-header-desktop-mb: 40px;
+
+$body-color: $black;
+$body-bg: #fff;
+$link-color: $navy;
+$link-hover-color: $navy-darker;
+$link-active-color: #111;
+$text-muted: #888;
+
+// FOOTER
+$site-footer-bg: $navy-darker;
+$site-footer-color: #fff;
+
+// PATH
+$imgpath: "../img";
+
+
+
+

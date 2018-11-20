@@ -1,0 +1,64 @@
+._desktop,._desktop-inline,._desktop-inline-block {display: none !important;}
+@media (min-width:992px){._mobile{display: none !important;}._desktop {display: block !important;}._desktop-inline {display: inline !important;}._desktop-inline-block {display: inline-block !important;} .panel-grid.panel-no-style._desktop, .panel-grid.panel-has-style > .panel-row-style._desktop {display: flex !important;}}
+body, input, textarea, select, button {text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-moz-font-feature-settings: "liga", "kern";}
+body, html {
+	width: 100%;
+	overflow-x: hidden
+}
+html {
+	min-height: 100vh;
+}
+body {
+	min-height: 100vh;
+	height: auto;
+	-webkit-backface-visibility: hidden;
+}
+h1,h2,h3,h4,h5,h6, nav, .menu, .button, .btn, .price, ._heading, blockquote, label,legend, .shop_table, .product_meta, .wc-tabs{
+	font-family: $heading-font;
+	font-weight: $heading-font-weight;
+}
+
+h1,h2,h3,h4,h5 {line-height: 1.3;}
+h1 {font-size: 1.6em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1em;}
+h5 {font-size: 0.88em;}
+
+
+img {max-width:100%;height: auto;}
+
+a {
+	transition: 0.3s;
+}
+
+.screen-reader-text {clip: rect(1px, 1px, 1px, 1px);position: absolute !important;height: 1px;width: 1px;overflow: hidden;}
+.screen-reader-text:focus {clip: auto !important;display: block;height: auto;left: 5px;top: 5px;width: auto;z-index: 100000;}
+
+.site {
+	min-height: 100vh;
+	position: relative;
+}
+
+.container{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:100%}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1200px}}
+.home-banner {
+	margin-bottom: 30px;
+	img{
+		width: 100%;
+	}	
+}
+.page-banner {
+	img {
+		width: 100%;
+	}
+	> .widget {
+		display: none;
+		&:first-of-type {
+			display: block;
+		}
+	}
+}
+
+body.home .main-header {
+	display: none;
+}
